@@ -1,0 +1,6 @@
+#N canvas 96 45 614 377 10;
+#X obj 159 153 hmacsha256;
+#X text 146 51 inlet 1: timestamp + method + requestPath + body;
+#X text 242 106 inlet 2: key;
+#X text 197 221 outlet: this object stores value of inlet 2 (key) and
+gnerates hmacsha256 encryption when give data from inlet 1;
