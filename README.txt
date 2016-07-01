@@ -1,0 +1,1 @@
+never got this working. meant for a greater “crypto” lib for pd.
